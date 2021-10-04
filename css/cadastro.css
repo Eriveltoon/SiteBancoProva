@@ -1,0 +1,14 @@
+form input {
+    display: block;
+    padding: 10px;
+    width: 100%;
+    font-size: 16px;
+}
+form input[type=radio]{
+    display: inline;
+    width: auto;
+}
+
+#botao{
+    padding: 10px;
+}

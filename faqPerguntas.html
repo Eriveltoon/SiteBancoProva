@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/index.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-md navbar-expand-lg bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand">
+                    <img src="./imagens/bank.png" style="width: 60px;" class="ms-2">
+                </a>
+                <h1 class="text-white d-inline align-middle ms-3">UNIBanco</h1>
+                <div class="collapse navbar-collapse d-flex justify-content-end p-2">
+                    <ul class="text-white navbar-nav m-3">
+                        <li class="nav-item px-3"><a href="index.html"
+                                class="text-decoration-none text-white text-reset">Home</a></li>
+                        <li class="nav-item px-3"><a href="faqPerguntas.html"
+                                class="text-decoration-none text-white text-reset">FAQ Perguntas</a></li>
+                        <li class="nav-item px-3"><a href="cadastro.html"
+                                class="text-decoration-none text-white">Cadastro</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <button class="btn rounded-pill" style="background-color: yellow;">Abra sua conta</button>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="container">
+            <h2 class="d-flex justify-content-center fs-1 mt-4">Dúvidas Frequentes</h2>
+
+            <!--Acordion Perguntas 1-->
+            <div class="accordion mt-4" id="perguntas">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="tituloPergunta-1">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            O UNIBanco é Seguro?
+                        </button>
+                    </h2>
+                    <!--Acordion resposta 1-->
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="tituloPergunta-1"
+                        data-bs-parent="#perguntas">
+                        <div class="accordion-body">
+                            <strong>Nosso banco é um banco novo, mas que vem com uma proposta inovadora para seu
+                                dinheiro, te proporcionando praticidade, comodidade, agilidade e principalmente projetos
+                                de investimentos para o seu dinheiro.</strong>
+                        </div>
+                    </div>
+                </div>
+                <!--Acordion Pergunta 2-->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="tituloPergunta-2">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Consigo abrir uma conta com restrição no nome?
+                        </button>
+                    </h2>
+                    <!--Acordion resposta 2-->
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="tituloPergunta-2"
+                        data-bs-parent="#perguntas">
+                        <div class="accordion-body">
+                            <strong>Nosso banco é um banco novo, mas que vem com uma proposta inovadora para seu
+                                dinheiro, te proporcionando praticidade, comodidade, agilidade e principalmente projetos
+                                de investimentos para o seu dinheiro.</strong>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Acordion Pergunta 3-->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="tituloPergunta-3">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Como solicitar aumento de limite?
+                        </button>
+                    </h2>
+                    <!--Acordion resposta 3-->
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="tituloPergunta-3"
+                        data-bs-parent="#perguntas">
+                        <div class="accordion-body">
+                            <strong>Com a movimentação da conta, criaremos um perfil adequado com seu patamar
+                                financeiro, com base nisso estipulamos um valor de crédito para que o Sr possa estar
+                                desfrutando.</strong>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Acordion Pergunta 4-->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="tituloPergunta-4">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapsefour" aria-expanded="false" aria-controls="collapsefour">
+                            Onde realizar saques?
+                        </button>
+                    </h2>
+                    <!--Acordion resposta 4-->
+                    <div id="collapsefour" class="accordion-collapse collapse" aria-labelledby="tituloPergunta-4"
+                        data-bs-parent="#perguntas">
+                        <div class="accordion-body">
+                            <strong>Saques podem ser efetuados em qualquer caixa 24H.</strong>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <div class="div-color mt-5">
+            <address class="rodape pt-4 text-white">
+                Av. Dona Belmira Marin, Nº.10 <br>
+                Grajaú, São Paulo - SP
+            </address>
+            <div class="rodape">
+                <span class="rodape text-white">Tel: (XX) XXXXX-XXXX</span>
+                <div class="icones">
+                    <a href="#"><img src="./imagens/facebook (2).png"></a>
+                    <a href="#"><img src="./imagens/instagram (2).png"></a>
+                    <a href="#"><img src="./imagens/whatsapp (2).png"></a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+</body>
+
+</html>

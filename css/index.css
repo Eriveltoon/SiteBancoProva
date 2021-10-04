@@ -1,0 +1,31 @@
+.cabecalho {
+    background-color: #2e2d2d;
+}
+
+.areaCartoes {
+    background-color: #e6a902;
+}
+
+.ofertaCartoes {
+    background-color: #30302f;
+}
+
+.opcionais{
+    width: 30px;
+}
+
+.rodape{
+    padding: 10px;
+    display: inline-block;
+    width: 45%;
+    text-align: center;
+    vertical-align: top;
+}
+.div-color{
+    background-color: #2e2d2d;
+    text-align: center;
+}
+.icones img{
+    width: 20px;
+    display: inline;
+}
